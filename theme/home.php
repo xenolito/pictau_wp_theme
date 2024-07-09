@@ -6,10 +6,15 @@
  *
  * @package pictau_tw
  */
-
 $post_type = get_post_type();
-$pods = pods( $post_type, get_the_id() );
-$subheader = $pods->field('subheader') !== '' ? $pods->field('subheader') : false;
+$pods = false;
+$subheader = false;
+
+if (function_exists('pods')) {
+	$pods = pods( $post_type, get_the_id() );
+	$subheader = $pods->field('subheader') !== '' ? $pods->field('subheader') : false;
+}
+
 
 $img = ( is_home() && get_option('page_for_posts') ) ? wp_get_attachment_image(get_post_thumbnail_id(get_option('page_for_posts')),'full') : false;
 $has_featured_img_cssClass = $img ? 'has-bg-img' : 'no-bg-img';

@@ -8,10 +8,17 @@
  */
 
 $post_type = get_post_type();
-$pods = pods( $post_type, get_the_id() );
-$subheader = $pods->field('subheader') !== '' ? $pods->field('subheader') : false;
+$pods = false;
+$subheader = false;
+$custom_header_img = false;
 
-$custom_header_img = $pods->field('custom_header_img')  ? $pods->field('custom_header_img._src.full') : false;
+if (function_exists('pods')) {
+	$pods = pods( $post_type, get_the_id() );
+	$subheader = $pods->field('subheader') !== '' ? $pods->field('subheader') : false;
+	$custom_header_img = $pods->field('custom_header_img')  ? $pods->field('custom_header_img._src.full') : false;
+}
+
+
 
 
 ?>

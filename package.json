@@ -1,7 +1,7 @@
 {
 	"private": true,
 	"config": {
-		"domain": "https://seguro-personas-clave.dev"
+		"domain": "https://personas-clave.dev/"
 	},
 	"devDependencies": {
 		"@_tw/themejson": "^0.2.0",
