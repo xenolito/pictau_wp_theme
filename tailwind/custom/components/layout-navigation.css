@@ -50,7 +50,8 @@ body.fixed-header {
 				background-repeat: no-repeat;
 				backdrop-filter: blur(7.5px);
 				.logo-brand {
-					filter: brightness(0);
+					/* filter: brightness(0); */
+					filter: none;
 				}
 			}
 		}
@@ -89,7 +90,7 @@ body.fixed-header {
 	}
 
 	.logo-brand {
-		filter: brightness(1);
+		filter: brightness(10);
 		z-index: 10;
 	}
 }

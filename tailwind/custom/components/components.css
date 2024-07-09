@@ -295,6 +295,8 @@
 		hsl(207deg 100% 50%) 100%
 	);
 
+	--heading-default-grad-bg: linear-gradient(to top, rgb(252, 0, 141), rgb(252, 91, 42) 100%);
+
 	/* ? THEME COLOR SCHEME RED */
 	--header-red-grad-bg: linear-gradient(
 		15deg,
@@ -445,8 +447,8 @@
 	--form-max-width: 320px;
 
 	/* ! LOGO HEADER DIMENSIONS */
-	--desktop-logo-brand-width: 200px;
-	--mobile-logo-brand-width: 180px;
+	--desktop-logo-brand-width: 100px;
+	--mobile-logo-brand-width: 100px;
 	--logo-brand-width: var(--desktop-logo-brand-width);
 	@media only screen and (max-width: 1023px) {
 		--logo-brand-width: var(--mobile-logo-brand-width);

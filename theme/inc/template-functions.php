@@ -8,8 +8,8 @@
 /*------------------------------------------------------------------------------------------------------*\
 						//!WP MAIL FROM CUSTOMIZATION AND MAINTENANCE PAGE INFO
 \*------------------------------------------------------------------------------------------------------*/
-function custom_wp_mail_from_name() {return 'MERCANZA';}
-function custom_wp_mail_address() { return 'info@mercanza.com'; }
+function custom_wp_mail_from_name() {return 'EXSEL';}
+function custom_wp_mail_address() { return 'info@exsel.net'; }
 add_filter( 'wp_mail_from', 'custom_wp_mail_address' );
 add_filter( 'wp_mail_from_name', 'custom_wp_mail_from_name' );
 
@@ -566,9 +566,15 @@ function pictau_social($atts){
 
 	$output = '<div class="social-icons">';
 
-	$output .= '<a class="social-item" href="http://www.linkedin.com/company/mercanza" aria-label="linkedin" target="_blank"><i class="pcticon-linkedin"></i></a>';
-	$output .= '<a class="social-item" href="https://x.com/Mercanza" aria-label="twitter/X" target="_blank"><i class="pcticon-twitter-x"></i></a>';
-	$output .= '<a class="social-item" href="https://www.youtube.com/channel/UC6ZPw_G_sx0STaSALca7QkQ" aria-label="facebook" target="_blank"><i class="pcticon-youtube"></i></a>';
+	$output .= '<a class="social-item" href="https://www.facebook.com/exselUnderwriting" aria-label="facebook" target="_blank"><i class="pcticon-facebook"></i></a>';
+
+	$output .= '<a class="social-item" href="https://twitter.com/exsel_uwa" aria-label="twitter/X" target="_blank"><i class="pcticon-twitter-x"></i></a>';
+
+	$output .= '<a class="social-item" href="https://www.linkedin.com/company/10506418" aria-label="linkedin" target="_blank"><i class="pcticon-linkedin"></i></a>';
+
+	$output .= '<a class="social-item" href="https://www.youtube.com/channel/UCVhiaOSryo-UaWD8-x8waAg" aria-label="facebook" target="_blank"><i class="pcticon-youtube"></i></a>';
+
+	$output .= '<a class="social-item" href="https://www.instagram.com/exsel_uwa" aria-label="instagram" target="_blank"><i class="pcticon-instagram"></i></a>';
 
 	$output .= '</div>';
 
