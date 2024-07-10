@@ -4270,6 +4270,10 @@ body.header-width-centered .main-header-content {
   transition: all 0.3s ease;
 }
 
+.above-header-wrap .above-header-content nav .top-nav-container li a[href*="#"] {
+  display: none !important;
+}
+
 .main-nav-mobile {
   position: relative;
   display: flex;
