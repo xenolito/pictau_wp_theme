@@ -12,8 +12,8 @@
 <section id="footer">
 	<!-- do_shortcode('[anim-bg color="#003f66" origin="80%,50%" speed="1.2"]') -->
 	<?php
-		echo do_shortcode('[anim-bg color="#006644" origin="70%,100%" speed="1.2"]');
-		echo do_shortcode('[anim-bg color="#2d5a7d" origin="100%,50%" speed="1.2"]');
+		// echo do_shortcode('[anim-bg color="#006644" origin="70%,100%" speed="1.2"]');
+		// echo do_shortcode('[anim-bg color="#2d5a7d" origin="100%,50%" speed="1.2"]');
 	?>
 	<div class="footer-container">
 	<?php

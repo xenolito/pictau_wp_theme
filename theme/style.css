@@ -37,6 +37,48 @@ Underscores and Varia are distributed under the terms of the GNU GPL v2 or later
  * These will be added immediately before Tailwind’s `base` layer.
  */
 
+/* quicksand-regular - latin */
+
+@font-face {
+  font-display: swap;
+
+  font-family: "Quicksand";
+
+  font-style: normal;
+
+  font-weight: 400;
+
+  src: url("./fonts/quicksand-v31-latin-regular.woff2") format("woff2");
+}
+
+/* quicksand-600 - latin */
+
+@font-face {
+  font-display: swap;
+
+  font-family: "Quicksand";
+
+  font-style: normal;
+
+  font-weight: 600;
+
+  src: url("./fonts/quicksand-v31-latin-600.woff2") format("woff2");
+}
+
+/* quicksand-700 - latin */
+
+@font-face {
+  font-display: swap;
+
+  font-family: "Quicksand";
+
+  font-style: normal;
+
+  font-weight: 700;
+
+  src: url("./fonts/quicksand-v31-latin-700.woff2") format("woff2");
+}
+
 /* outfit-300 - latin */
 
 @font-face {
@@ -4974,7 +5016,8 @@ body .is-layout-constrained:not(.alignfull) > * {
   display: flex;
   position: absolute;
   inset: 0;
-  background-color: rgba(0, 0, 0, 0.33);
+  /* background-color: rgba(0, 0, 0, 0.33); */
+  background-color: rgba(0, 0, 0, 0);
 }
 
 body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull))
@@ -7634,6 +7677,10 @@ html::-webkit-scrollbar-track {
  */
 
 /*! CUSTOM THEMES  */
+
+.slider h1 {
+  font-family: var(--txt-slider-heading);
+}
 
 .theme-color-A {
   --border-color: var(--heading-color-theme-A);
@@ -10938,7 +10985,8 @@ button.swiper-pagination-bullet{
   --box-shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
   /* ! COLORS DEFAULT */
   /* --main-color: rgb(196, 228, 86); */
-  --main-color: #c3ff00;
+  /* --main-color: #c3ff00; */
+  --main-color: #fc1a57;
   --main-color-darker: #7a9913;
   --bg-light: rgb(246, 243, 239);
   --bg-dark: rgb(3, 18, 39);
@@ -11029,19 +11077,7 @@ button.swiper-pagination-bullet{
 		hsl(227deg 21% 18%) 89%,
 		hsl(229deg 24% 17%) 100%
 	);
-  --footer-gradient: linear-gradient(
-		135deg,
-		hsl(222deg 29% 14%) 0%,
-		hsl(220deg 32% 15%) 4%,
-		hsl(219deg 36% 15%) 9%,
-		hsl(215deg 41% 16%) 15%,
-		hsl(215deg 44% 17%) 22%,
-		hsl(213deg 49% 18%) 30%,
-		hsl(210deg 53% 18%) 40%,
-		hsl(209deg 57% 19%) 52%,
-		hsl(207deg 61% 20%) 69%,
-		hsl(205deg 64% 21%) 100%
-	);
+  --footer-gradient: linear-gradient(to top, rgb(252, 0, 141), rgb(252, 91, 42) 100%);
   --footer-gradient-dark: linear-gradient(
 		180deg,
 		hsl(0deg 0% 0%) 0%,
@@ -11055,7 +11091,6 @@ button.swiper-pagination-bullet{
 		hsl(216deg 84% 10%) 89%,
 		hsl(215deg 86% 11%) 100%
 	);
-  --mercanza-gradient: linear-gradient(108deg, #384103 24%, #6f7c24 80%);
   --card-gradient: linear-gradient(
 		155deg,
 		hsl(215deg 86% 8%) 0%,
@@ -11248,9 +11283,11 @@ button.swiper-pagination-bullet{
   --third-color: #a8d4ff;
   --section-color: #fbf8f9;
   /* ! FONTS & TYPOGRAPHY */
-  --def-font-family: "Outfit", Helvetica, Arial, sans-serif;
-  /* --def-heading-font-family: 'Exo', Helvetica, Arial, sans-serif; */
-  --def-heading-font-family: "Outfit", Helvetica, Arial, sans-serif;
+  /* --def-font-family: "Outfit", Helvetica, Arial, sans-serif;
+	--def-heading-font-family: "Outfit", Helvetica, Arial, sans-serif; */
+  --def-font-family: "Quicksand", Helvetica, Arial, sans-serif;
+  --def-heading-font-family: "Quicksand", Helvetica, Arial, sans-serif;
+  --txt-slider-heading: "Outfit", Helvetica, Arial, sans-serif;
   --def-txt-color: #404040;
   --txt-heading-color: #3a3a3a;
   --light-grey-color: #ddd;

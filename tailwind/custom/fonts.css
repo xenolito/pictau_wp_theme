@@ -4,6 +4,31 @@
  * These will be added immediately before Tailwind’s `base` layer.
  */
 
+/* quicksand-regular - latin */
+@font-face {
+	font-display: swap;
+	font-family: "Quicksand";
+	font-style: normal;
+	font-weight: 400;
+	src: url("./fonts/quicksand-v31-latin-regular.woff2") format("woff2");
+}
+/* quicksand-600 - latin */
+@font-face {
+	font-display: swap;
+	font-family: "Quicksand";
+	font-style: normal;
+	font-weight: 600;
+	src: url("./fonts/quicksand-v31-latin-600.woff2") format("woff2");
+}
+/* quicksand-700 - latin */
+@font-face {
+	font-display: swap;
+	font-family: "Quicksand";
+	font-style: normal;
+	font-weight: 700;
+	src: url("./fonts/quicksand-v31-latin-700.woff2") format("woff2");
+}
+
 /* outfit-300 - latin */
 @font-face {
 	font-display: swap;

@@ -8,6 +8,10 @@
 
 /*! CUSTOM THEMES  */
 
+.slider h1 {
+	font-family: var(--txt-slider-heading);
+}
+
 .theme-color-A {
 	--border-color: var(--heading-color-theme-A);
 	--border-color-dark: var(--heading-color-theme-A-dark);

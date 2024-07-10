@@ -1151,7 +1151,7 @@ function my_register_scripts() {
 		true
 	);
 }
-add_action( 'wp_enqueue_scripts', 'my_register_scripts' );
+// add_action( 'wp_enqueue_scripts', 'my_register_scripts' );
 
 
 //! ANIMATED BACKGROUNDS CANVAS PIXI
