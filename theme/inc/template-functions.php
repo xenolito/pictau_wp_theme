@@ -403,7 +403,7 @@ function customize_theme_header_behavior( $wp_customize ) {
 	// Add Panel
 	$wp_customize->add_panel('PICTAU', array(
 		'title' => __('THEME CUSTOMIZER', 'pictau'),
-		'description'	=> '<div class="description-pictau-panel"><img src="https://www.pictau.com/xen_media//logo-login-pictau.png" /><p>Pictau panel description</p></div>',
+		// 'description'	=> '<div class="description-pictau-panel"><img src="https://www.pictau.com/xen_media//logo-login-pictau.png" /><p>Pictau panel description</p></div>',
 		'priority'		=> '360'
 	));
 
