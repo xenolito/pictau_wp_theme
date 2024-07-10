@@ -46,7 +46,7 @@ import './modules/effect_stroke_chars'
 // import './modules/bg_body_color_change'
 import './modules/webgl_animBg'
 import './modules/logosGridFilter'
-// import './modules/animation_slider_mercanza'
+import './modules/slider_videoBg_trigger_anim'
 // import './modules/video_play_scrolltriggered'
 
 document.addEventListener('DOMContentLoaded', () => {

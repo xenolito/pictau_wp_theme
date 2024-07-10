@@ -1056,9 +1056,9 @@ canvas.anim-bg {
 	}
 }
 
-/*! SLIDER MERCANZA 24 */
+/*! SLIDER VIDEO BACKGROUND */
 
-.slider.mercanza-24 {
+.slider.has-video-bg {
 	position: relative;
 	color: white;
 	h1 {

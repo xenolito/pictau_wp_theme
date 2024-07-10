@@ -15,7 +15,7 @@ window.addEventListener('load', () => {})
 
 // document.addEventListener('DOMContentLoaded', () => {
 window.addEventListener('load', () => {
-	const slider = document.querySelector('body.home .slider, .slider.mercanza-24')
+	const slider = document.querySelector('body.home .slider, .slider.has-video-bg')
 
 	if (!slider) return
 
@@ -66,14 +66,13 @@ window.addEventListener('load', () => {
 
 	const nextSectionST = ScrollTrigger.create({
 		trigger: nextSection,
-		start: 'top+=10% bottom',
+		start: 'top bottom-=5%',
 		onEnter: self => {
 			h1.headerAnimation.timeLine.reverse()
 		},
 		onLeaveBack: () => {
 			h1.headerAnimation.timeLine.play()
 		},
-
 		scrub: 1,
 		// markers: true,
 		// invalidateOnRefresh: true,

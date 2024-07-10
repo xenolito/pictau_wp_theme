@@ -8418,14 +8418,14 @@ canvas.anim-bg {
   height: auto;
 }
 
-/*! SLIDER MERCANZA 24 */
+/*! SLIDER VIDEO BACKGROUND */
 
-.slider.mercanza-24 {
+.slider.has-video-bg {
   position: relative;
   color: white;
 }
 
-.slider.mercanza-24 h1 {
+.slider.has-video-bg h1 {
   font-size: clamp(4.2rem, 10vw, 9rem);
   color: white;
   text-align: center;
@@ -8433,11 +8433,11 @@ canvas.anim-bg {
   opacity: 0;
 }
 
-.slider.mercanza-24 p {
+.slider.has-video-bg p {
   text-align: center;
 }
 
-.slider.mercanza-24 .slider-cover:not(.block-editor-block-list__block) {
+.slider.has-video-bg .slider-cover:not(.block-editor-block-list__block) {
   display: block;
   position: absolute;
   /* opacity: 0; */
